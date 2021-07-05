@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    // Complete the code.
+    char ch ;
+    int b ;
+    long c ;float d ; double e ;
+    scanf("%d %ld %c %f %lf",&b,&c,&ch,&d,&e);
+     printf("%d",b);
+     printf("\n%ld",c);
+     printf("\n%c",ch);
+     printf("\n%f",d);
+     printf("\n%lf",e);
+
+    return 0;
+}
